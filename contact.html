@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Contact</title>
+				<link rel="stylesheet" type="text/css" href="style.css">
+				<meta charset="UTF-8">
+				<meta name="description" content="Irelands biggest gay/bi men-only sauna">
+				<meta name="keywords" content="sauna,gay,bi,jaczzi,steamroom,temple bar">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+		</head>
+				
+		<body>
+						
+			<div class="section group">
+			
+				<div class="col span_7_of_7"><br />
+					<table>
+						<tr>
+							<td><a href="index.html" class="mi">Home</a></td>
+							<td><a href="info.html" class="mi">Info</a></td>
+							<td><a href="Gallery.html" class="mi">Gallery</a></td>
+							<td><a href="services.html" class="mi">Services</a></td>
+							<td><a href="Promo.html" class="mi">Promo</a></td>
+							<td><a href="contact.html" class="mi">Contact</a></td>
+							<td><a href="steam.html" class="mi">Steam</a></td>
+						</tr>
+					</table><br /><hr /><br />
+				</div>
+					
+			<table id="data">
+				<tr>
+					<td><img src="images/logo2.png" class="bh" alt="logo" /><td>
+						<td class="data1">	
+							<form action="contact.php" method="post">
+							<h3> Please Enter Your Full Name </h3>
+							
+							<p> First name:<br><input type="text" name="firstname" /><br>	
+							
+							Last name:<br><input type="text" name="lastname" />							
+							</p>
+							
+							<h3>Please Select an Age Group</h3>
+							<p>
+							
+							<label>18-24</label>
+							<input name = "Age" type = "radio"  value = "18-24" />
+							<label>25-34</label>
+							<input name = "Age"  type = "radio"  value = "25-34" />
+							<label>35-49</label>
+							<input name = "Age"  type = "radio"  value = "35-49" />	
+							
+							</p>
+							
+							<h3>Please Enter Your Email</h3>	
+
+							<p>
+							<label>Email:</label>
+							<input name = "Email:" type = "text" size="25" />@
+							
+							<select name= "option">
+							<option>Outlook.com</option>
+							<option>Gmail.com</option>
+							<option>Yahoo.com</option>
+							</select>
+							
+							<br /><br />	
+							Please Specify if other: <input name = "Other" type = "text" />
+							<br /><br />
+							<textarea name="comments" rows="10" cols="50" ></textarea><br />
+							<button onclick="conor();">Submit</button>
+							</p>		
+									</form>
+								</td>
+								<td><img src="images/logo2.png" class="bh" alt="logo" /></td>
+							</tr>
+						</table><br /><hr />
+					</div>
+					
+					<script>
+				
+					function conor()
+					{
+					 alert("Thank You!");
+					}
+				
+				</script>
+					
+					
+				</body>
+
+				
+			</html>
